@@ -1,11 +1,26 @@
+/* COLORS USED 
+
+#010B40 --> Violent Violet
+#0E3659 --> Prussian Blue
+#486773 --> Planet Green
+#BDBFAE --> Light Goldenrod Yellow
+#F2E2C4 --> Paper Lantern
+
+*/
+
+/* GENEERAL STYLES */
+
 * {
     margin: 0;
-    background: cornflowerblue;
+    background-color: #F2E2C4;
 }
 
-/* elements */
+/* NAV BAR STYLES */
 
-/* classes */
+/* MAIN PART STYLES */
 
-/* ids */
+/* FOOTER STYLES */
+
+
+
 
