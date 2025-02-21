@@ -61,7 +61,13 @@ nav a {
     color: #F2E2C4;
 }
 
-@media (min-width: 992px) {
+#logo a {
+    font-family: Passions Conflict;
+    color: #BDBFAE;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 992px) {
     nav {
         display: flex;
         height: 80px;
@@ -94,6 +100,18 @@ nav a {
 
 /* FOOTER STYLES */
 
+footer {
+    background-color: #0e3659;
+    color:#F2E2C4;
+    font-family: Roboto;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    padding: 1em 0.5em;
+}
 
-
-
+@media only screen and (min-width: 992px) {
+    footer p {
+        margin-left: 200px;
+    }
+}
