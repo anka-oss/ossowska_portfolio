@@ -25,7 +25,8 @@ nav {
     height: 100%;
     padding: 1em 0.5em;
     background-color: #0e3659;
-    display: flex;
+    text-align: center;
+    font-family: Roboto;
 }
 
 nav ul {
@@ -43,12 +44,50 @@ nav ul {
 }
 
 #logo {
-   width: 30vw;
+   width: 100vw;
    flex: left;
+   font-family: Passions Conflict;
+   color: #BDBFAE;
+   font-size: 3em;
+   margin-bottom: 0.25em;
 }
 
 #menu {
-    width: 70vw;
+    width: 100vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F2E2C4;
+}
+
+@media (min-width: 992px) {
+    nav {
+        display: flex;
+        height: 80px;
+    }
+
+    #logo {
+        width: 30vw;
+        flex: left;
+        font-family: Passions Conflict;
+        color: #BDBFAE;
+        font-size: 4.5em;
+        line-height: 80px;
+        margin-left: 200px;
+        margin-bottom: 0.25em;
+    }
+    
+    #menu {
+        width: 70vw;
+        line-height: 80px;
+        margin-right: 200px;
+        margin-left: 100px;
+    }
+
+    nav a:hover {
+        color: #BDBFAE;
+    }
 }
 
 /* MAIN PART STYLES */
