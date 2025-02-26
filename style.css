@@ -10,12 +10,20 @@
 
 /* GENEERAL STYLES */
 
+:root {
+    --violet: #010B40;
+    --blue:#0E3659;
+    --green: #486773;
+    --yellow: #BDBFAE;
+    --paper: #F2E2C4;
+}
+
 * {
     margin: 0;
 }
 
 body {
-    background-color: #F2E2C4;
+    background-color: var(--paper);
 }
 
 /* NAV BAR STYLES */
@@ -24,7 +32,7 @@ nav {
     width: 100vw;
     height: 100%;
     padding: 1em 0.5em;
-    background-color: #0e3659;
+    background-color: var(--blue);
     text-align: center;
     font-family: Roboto;
 }
@@ -47,7 +55,7 @@ nav ul {
    width: 100vw;
    flex: left;
    font-family: Passions Conflict;
-   color: #BDBFAE;
+   color: var(--yellow);
    font-size: 3em;
    margin-bottom: 0.25em;
 }
@@ -58,12 +66,12 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #F2E2C4;
+    color: var(--paper);
 }
 
 #logo a {
     font-family: Passions Conflict;
-    color: #BDBFAE;
+    color: var(--yellow);
     text-decoration: none;
 }
 
@@ -77,7 +85,7 @@ nav a {
         width: 30vw;
         flex: left;
         font-family: Passions Conflict;
-        color: #BDBFAE;
+        color: var(--yellow);
         font-size: 4.5em;
         line-height: 80px;
         margin-left: 200px;
@@ -92,7 +100,7 @@ nav a {
     }
 
     nav a:hover {
-        color: #BDBFAE;
+        color: var(--yellow);
     }
 }
 
@@ -102,7 +110,7 @@ nav a {
 
 footer {
     background-color: #0e3659;
-    color:#F2E2C4;
+    color: var(--paper);
     font-family: Roboto;
     position: fixed;
     bottom: 0;
