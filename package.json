@@ -2,8 +2,7 @@
   "name": "ossowska_portfolio",
   "version": "1.0.0",
   "description": "The first version of portfoio",
-  "main": "index.html",
-  "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build"
