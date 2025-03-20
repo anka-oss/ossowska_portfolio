@@ -1,11 +1,17 @@
 {
   "name": "ossowska_portfolio",
   "version": "1.0.0",
+  "private": true,
   "description": "The first version of portfoio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build"
+    "start": "live-server",
+    "build": "echo 'No build step needed for static site'",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "1.2.2"
   },
   "author": "Anna Ossowska",
   "license": "ISC"

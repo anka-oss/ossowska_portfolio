@@ -14,6 +14,11 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-padding-top: 155px; 
+}
+
+
 body {
     background-color: var(--paper);
 }
@@ -222,6 +227,10 @@ footer {
 }
 
 @media only screen and (min-width: 992px) {
+    html {
+        scroll-padding-top: 128px; 
+    }
+
     nav {
         grid-template-columns: auto 1fr;
         align-items: center;
