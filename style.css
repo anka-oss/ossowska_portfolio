@@ -161,13 +161,32 @@ h3,
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.project img {
+.proj_img {
     width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 8px;
     border: 2px solid var(--paper);
     filter: opacity(50%) grayscale(100%);
+}
+
+.description {
+    grid-column: span 2;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.project button {
+    grid-column: span 2;
+    justify-self: center;
+    background-color: var(--yellow);
+    border-radius: 8px;
+    color: var(--green);
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
 #contact li {
@@ -223,6 +242,17 @@ footer {
     .project img {
         width: 200px;
         height: auto;
+    }
+
+    .project button {
+        width: 200px;
+        height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .project button:hover {
+        box-shadow: none;
+        cursor: pointer;
     }
 }
 
