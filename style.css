@@ -278,6 +278,7 @@ footer {
 
     #hero {
         height: 70vh;
+        width: auto;
     }
 
     .project-grid {
