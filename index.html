@@ -114,20 +114,49 @@
 
             <section id="contact">
                 <h2>Contact</h2>
-                <p>Feel free to reach out through any of the following channels:</p>
-                <ul>
-                    <li><img class="icon" src="images/email.png" alt="email icon"><a href="mailto:ania.b.ossowska@gmail.com">  ania.b.ossowska@gmail.com</a></li>
-                    <li><img class="icon" src="images/linkedin.png" alt="email icon"><a href="https://www.linkedin.com/in/anna-ossowska-130493a0">  my linkedin profile</a></li>
-                    <li><img class="icon" src="images/github.png" alt="github icon"><a href="https://www.github.com/anka-oss">  my github account</a></li>
-                    <li><img class="icon" src="images/instagram.png" alt="github icon"><a href="https://www.instagram.com/wiedzma_w_korpo/">  instagram profile</a></li>
-                </ul>
+                <div class="contact-details">
+                    <p>Feel free to reach out through any of the following channels:</p>
+                    <ul>
+                        <li><img class="icon" src="images/email.png" alt="email icon"><a href="mailto:ania.b.ossowska@gmail.com">  ania.b.ossowska@gmail.com</a></li>
+                        <li><img class="icon" src="images/linkedin.png" alt="email icon"><a href="https://www.linkedin.com/in/anna-ossowska-130493a0">  my linkedin profile</a></li>
+                        <li><img class="icon" src="images/github.png" alt="github icon"><a href="https://www.github.com/anka-oss">  my github account</a></li>
+                        <li><img class="icon" src="images/instagram.png" alt="github icon"><a href="https://www.instagram.com/wiedzma_w_korpo/">  instagram profile</a></li>
+                    </ul>                 
+                </div>
+                <form
+                    action="https://formspree.io/f/moveeaqz"
+                    method="POST"
+                >
+                    <label>
+                        Your email: 
+                        <input type="email" name="email" required>
+                    </label><br>
+                    <label>
+                        Your message:<br>
+                        <textarea name="message"></textarea>
+                    </label><br>
+                    <label>
+                        Name: <br>
+                        <input type="text" name="name" required>
+                    </label><br>
+                    <label>
+                        Phone: <br>
+                        <input type="tel" name="phone" pattern="[0-9]{9}">
+                    </label><br>
+                    <div>
+                        <input class="form-btn" type="submit" value="Submit">
+                        <input class="form-btn" type="reset" value="Reset">
+                    </div>
+                </form>
             </section>
         </main>
 
         <footer>
             <p>&copy; 2025 Anna Ossowska. All rights reserved.</p>
         </footer>
+
+        <button id="backToTop" class="back-to-top">⬆ Top</button>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
