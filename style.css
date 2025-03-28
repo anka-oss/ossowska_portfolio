@@ -275,8 +275,8 @@ textarea {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    display: none; /* Hidden by default */
-    background-color: var(--yellow); /* Purple color */
+    display: none; 
+    background-color: var(--yellow); 
     color: var(--violet);
     border: none;
     padding: 10px 15px;
@@ -288,7 +288,7 @@ textarea {
 }
 
 .back-to-top:hover {
-    background-color: var(--green); /* Darker purple */
+    background-color: var(--green); 
 }
 
 /* FOOTER STYLES */
