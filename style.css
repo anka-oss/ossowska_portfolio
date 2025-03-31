@@ -31,7 +31,20 @@ body {
     color: var(--violet);
 }
 
+
 /* NAV BAR STYLES */
+
+#about a {
+    text-decoration: none;
+    color: var(--green);
+    background-color: var(--violet);
+    border-radius: 8px;
+    padding: 3px 5px;
+}
+
+#about a:hover {
+    color: var(--yellow);
+}
 
 header {
     width: 100vw;
