@@ -437,7 +437,8 @@ h2 a,
 
     /* BLOG */
 
-    h2 a:hover {
+    h2 a:hover,
+    .read-more a:hover {
         color: var(--yellow);
     }
 }
