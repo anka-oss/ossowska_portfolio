@@ -46,7 +46,7 @@ body {
     color: var(--yellow);
 }
 
-header {
+.index-header {
     width: 100vw;
     background-color: var(--violet);
     padding: 1rem;
@@ -306,7 +306,7 @@ textarea {
 
 /* FOOTER STYLES */
 
-footer {
+.index-footer {
     width: 100vw;
     overflow: hidden;
     background-color: var(--violet);
