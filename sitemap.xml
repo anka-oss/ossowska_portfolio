@@ -6,4 +6,21 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Blog main page (after redirect) -->
+  <url>
+    <loc>https://ossowska.netlify.app/blog/</loc>
+    <lastmod>2024-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Specific blog post -->
+  <url>
+    <loc>https://ossowska.netlify.app/blog/self-taught-frontend-journey.html</loc>
+    <lastmod>2024-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
 </urlset>
