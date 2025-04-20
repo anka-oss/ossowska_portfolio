@@ -19,3 +19,8 @@ status = 200
   from = "/blog/blog.html"
   to = "/blog"
   status = 301
+
+[[redirects]]
+  from = "https://ossowska.netlify.app"
+  to = "https://ossowska.tech"
+  status = 301
