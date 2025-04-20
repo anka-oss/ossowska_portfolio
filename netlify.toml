@@ -21,6 +21,7 @@ status = 200
   status = 301
 
 [[redirects]]
-  from = "https://ossowska.netlify.app"
-  to = "https://ossowska.tech"
+  from = "/*"
+  to = "https://ossowska.tech/:splat"
   status = 301
+  force = true
