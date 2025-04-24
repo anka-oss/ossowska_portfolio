@@ -3,7 +3,7 @@
   <!-- Main Portfolio Site -->
   <url>
     <loc>https://ossowska.tech/</loc>
-    <lastmod>2024-03-30</lastmod>
+    <lastmod>2024-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,15 +11,15 @@
   <!-- Blog main page -->
   <url>
     <loc>https://ossowska.tech/blog/</loc>
-    <lastmod>2024-04-12</lastmod>
+    <lastmod>2024-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Specific blog post -->
   <url>
-    <loc>https://ossowska.tech/blog/self-taught-frontend-journey.html</loc>
-    <lastmod>2024-04-12</lastmod>
+    <loc>https://ossowska.tech/blog/jak-zostalam-front-end-developerem-jako-mama.html</loc>
+    <lastmod>2024-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
