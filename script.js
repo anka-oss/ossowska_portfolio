@@ -13,14 +13,14 @@ function addClamp(description) {
 function expandText(description, button) {
     description.classList.add('expanded');
     removeClamp(description);
-    button.textContent = 'Show less';
+    button.textContent = 'Zwiń';
 }
 
 // Function to collapse text
 function collapseText(description, button) {
     description.classList.remove('expanded');
     addClamp(description);
-    button.textContent = 'Load more';
+    button.textContent = 'Pokaż więcej';
 }
 
 // Event listener for each button
