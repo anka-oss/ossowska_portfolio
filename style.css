@@ -107,6 +107,12 @@ nav {
     text-decoration: none;
 }
 
+.language-icon {
+    width: 1.25rem;
+    height: auto;
+    vertical-align: middle;
+}
+
 /* MAIN PART STYLES */
 #hero {
     width: 100vw;
