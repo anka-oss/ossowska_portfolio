@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Portfolio Site -->
   <url>
-    <loc>https://ossowska.netlify.app/</loc>
+    <loc>https://ossowska.tech/</loc>
     <lastmod>2024-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Blog main page (after redirect) -->
+  <!-- Blog main page -->
   <url>
-    <loc>https://ossowska.netlify.app/blog/</loc>
+    <loc>https://ossowska.tech/blog/</loc>
     <lastmod>2024-04-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -17,10 +18,9 @@
 
   <!-- Specific blog post -->
   <url>
-    <loc>https://ossowska.netlify.app/blog/self-taught-frontend-journey.html</loc>
+    <loc>https://ossowska.tech/blog/self-taught-frontend-journey.html</loc>
     <lastmod>2024-04-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
 </urlset>
