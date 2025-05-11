@@ -1,5 +1,9 @@
 RewriteEngine On
 
+# Redirect www to non-www
+RewriteCond %{HTTP_HOST} ^www\.ossowska\.tech$ [NC]
+RewriteRule ^(.*)$ https://ossowska.tech/$1 [L,R=301]
+
 # Redirect any /*/index.html to /*/
 RewriteCond %{THE_REQUEST} /(.*/)?index\.html [NC]
 RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
