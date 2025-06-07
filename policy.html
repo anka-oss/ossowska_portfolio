@@ -4,18 +4,24 @@
         <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GRCQ5MMG2D"></script>
     <script>
+    if (!window.location.pathname.includes("privacy-policy")) {
+        var script = document.createElement('script');
+        script.src = "https://www.googletagmanager.com/gtag/js?id=G-GRCQ5MMG2D";
+        script.async = true;
+        document.head.appendChild(script);
+
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-GRCQ5MMG2D');
+    }
     </script>
     <meta charset="UTF-8">
     <link rel="canonical" href="https://ossowska.tech/policy/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="RzXnMZX4uopYXCCGkRXXwcSUE2Du8lkhFzihUsk3Om0" />
-    <title>Ossowska.tech | Polityka prywatności - Privacy policy</title>
-    <meta name="description" content="Ossowska.tech | Polityka prywatności - Privacy policy">
+    <title>Privacy Policy | Polityka prywatności | Ossowska.tech</title>
+    <meta name="description" content="Learn how Ossowska.tech collects, uses, and protects your personal data. This privacy policy covers Google Analytics and Formspree usage, cookie practices, and your GDPR rights.">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +32,7 @@
         <header class="index-header">
             <nav>
                 <div id="logo">
-                    <p><a href="../index.html"><img src="../images/logo.png" alt="logo mandala Anna Ossowska"> Anna Ossowska</a></p>
+                    <p><a href="./index.html"><img src="./images/logo.png" alt="logo mandala Anna Ossowska"> Anna Ossowska</a></p>
                 </div>
             </nav>
         </header>
